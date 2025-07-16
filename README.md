@@ -38,4 +38,6 @@ venv\Scripts\activate      # On Windows
 
 pip install -r requirements.txt
 
+## RUN THE App
+streamlit run app.py
 
