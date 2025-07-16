@@ -1,6 +1,8 @@
 streamlit
 langchain
 langchain-community
-langchain-ollama
+langchain_ollama
 chromadb
 pypdf
+ollama
+langchain_chroma
