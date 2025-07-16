@@ -1,25 +1,22 @@
 import streamlit as st
-from rag_system import PlantDiseaseDiagnosisSystem  # Make sure the class is in rag_system.py
+from rag_system import RAGSystem
 
-@st.cache_resource
-def load_system():
-    # Initialize the system with the correct PDF
-    return PlantDiseaseDiagnosisSystem(data_file_path="data/e1592.pdf")
-
-rag_system = load_system()
+rag_system = RAGSystem()
 
 def main():
-    st.title("🌱 Plant Disease Diagnosis Assistant")
-    st.markdown("Describe plant symptoms or ask questions about plant diseases.")
-    
-    question = st.text_area("Describe the symptoms or ask a question:", height=150)
-    
-    if st.button("Get Diagnosis"):
-        with st.spinner("Analyzing symptoms and consulting resources..."):
-            response = rag_system.answer_query(question)
-        
-        st.subheader("Diagnosis Report")
-        st.markdown(response)  # Display as markdown
+    st.set_page_config(page_title="RAG AMA", page_icon="🤖")
+    st.title("📄 Ask Me Anything - RAG System")
+    st.write("Ask questions based on the PDF content.")
 
-if __name__ == "__main__":
+    question = st.text_input("💬 Enter your question:")
+    if st.button("Ask"):
+        if question.strip() == "":
+            st.warning("⚠ Please enter a question.")
+        else:
+            with st.spinner("🔎 Searching for answer..."):
+                response = rag_system.answer_query(question)
+            st.success("✅ Answer:")
+            st.write(response)
+
+if __name__== "__main__":
     main()
