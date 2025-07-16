@@ -60,6 +60,5 @@ pip install -r requirements.txt
 - 📑 PDF Processing with LangChain
 
 
-[![GitHub stars](https://img.shields.io/github/stars/alokkumar0987/Gen_Application_project.svg)](https://github.com/alokkumar0987/Gen_Application_project/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/alokkumar0987/Gen_Application_project.svg)](https://github.com/alokkumar0987/Gen_Application_project/network)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-AlokKumar-blue?logo=linkedin)](https://www.linkedin.com/in/alok-kumar-784025309)
