@@ -38,6 +38,28 @@ venv\Scripts\activate      # On Windows
 
 pip install -r requirements.txt
 
-## RUN THE App
-streamlit run app.py
+```
+## 🙋‍♂ Author
+👤 *Alok Kumar*  
+🌐 [GitHub](https://github.com/alokkumar0987) | [LinkedIn](https://www.linkedin.com/in/alok-kumar-784025309)
 
+---
+
+## 📚 Tech Stack
+🚀 *Languages & Frameworks*
+- 🐍 Python 3.9+
+- 🖥 Streamlit (Frontend Web UI)
+- 🧠 LangChain (RAG Pipeline)
+- 📝 Ollama (LLMs: LLaMA 3.2)
+- 🗃 ChromaDB (Vector Database)
+
+📦 *Tools*
+- 💻 VS Code
+- 🐙 Git & GitHub
+- 📦 Virtual Environments (venv)
+- 📑 PDF Processing with LangChain
+
+
+[![GitHub stars](https://img.shields.io/github/stars/alokkumar0987/Gen_Application_project.svg)](https://github.com/alokkumar0987/Gen_Application_project/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/alokkumar0987/Gen_Application_project.svg)](https://github.com/alokkumar0987/Gen_Application_project/network)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-AlokKumar-blue?logo=linkedin)](https://www.linkedin.com/in/alok-kumar-784025309)
