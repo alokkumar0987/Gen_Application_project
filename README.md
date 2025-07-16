@@ -5,6 +5,24 @@ Upload PDFs, ask questions, and get instant answers in a clean web app.
 
 ---
 
+
+## Architecture of RAG System 
+
+📂 Step 1: Load PDF
+    ↓
+🪓 Step 2: Split PDF into chunks
+    ↓
+🆔 Step 3: Assign unique IDs to each chunk
+    ↓
+🔗 Step 4: Store embeddings in Chroma Vector DB
+    ↓
+🤖 Step 5: Query chatbot (Streamlit UI)
+    ↓
+💬 Step 6: Get answers from local Llama 3.2 model (via Ollama)
+
+
+
+
 ## 📸 Demo Screenshots
 <img width="1920" height="1080" alt="Screenshot 2025-07-16 153135" src="https://github.com/user-attachments/assets/aa288fd4-3374-49c3-b88f-6aaf293c561a" />
 
