@@ -6,13 +6,11 @@ Upload PDFs, ask questions, and get instant answers in a clean web app.
 ---
 
 ## 📸 Demo Screenshots
+<img width="1920" height="1080" alt="Screenshot 2025-07-16 153135" src="https://github.com/user-attachments/assets/f294154f-f492-4533-8c8c-2d59b607e524" />
 
-### 🖥 Web App UI
-![Demo Screenshot 1](screenshots/screenshot1.png)
-![Demo Screenshot 2](screenshots/screenshot2.png)
+<img width="1920" height="1080" alt="Screenshot 2025-07-16 153331" src="https://github.com/user-attachments/assets/af89f835-c752-4208-83c2-958d5349bfda" />
 
-### 💬 Example Q&A
-<img src="screenshots/screenshot3.png" width="100%" alt="Q&A Screenshot">
+
 
 ---
 
