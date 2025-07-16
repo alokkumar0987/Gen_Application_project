@@ -11,6 +11,9 @@ Upload PDFs, ask questions, and get instant answers in a clean web app.
 
 <img width="1920" height="1080" alt="Screenshot 2025-07-16 153331" src="https://github.com/user-attachments/assets/8dd8f6bd-fd50-45d8-b4b0-67485813727f" />
 
+<img width="1920" height="1080" alt="Screenshot 2025-07-16 153608" src="https://github.com/user-attachments/assets/7a20a11a-8b53-4c0c-8e23-daf12adf4a94" />
+
+
 ---
 
 ## 🚀 Features
