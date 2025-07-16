@@ -22,8 +22,20 @@ Upload PDFs, ask questions, and get instant answers in a clean web app.
 ✅ Admit card PDFs in the data/ folder and Chatbot using local llm model   llama3.2
 
 ---
+## 📥 Installation
 
-## 📦 Folder Structure
+### Clone Repository
+```bash
+git clone https://github.com/alokkumar0987/Gen_Application_project.git
+cd Gen_Application_project
 
 
-Gen_Application_project/ ├── rag_system.py         # RAG pipeline (PDF loader → Chroma DB → Answering) ├── app.py                # Streamlit UI ├── requirements.txt      # Python dependencies ├── .gitignore            # Ignored files (chroma/, data/, venv/) ├── README.md             # Project description ├── data/                 # PDF files (ignored in Git) ├── chroma/               # Chroma DB (ignored in Git) └── screenshots/          # App demo images
+# create virtual enviroment
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+
+
+pip install -r requirements.txt
+
+
